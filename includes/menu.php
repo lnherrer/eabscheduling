@@ -4,7 +4,7 @@
     <link href="bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="theme.css" rel="stylesheet">
+    <link href="bootstrap/css/theme.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
