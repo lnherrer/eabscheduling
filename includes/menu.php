@@ -32,18 +32,18 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="index.php#about">About</a></li>
-            <li><a href="index.php#contact">Contact</a></li>
+            <li><a href="index.php#about">About EAB</a></li>
             <li class="dropdown">
               <a href="index.php#sign_up_now" class="dropdown-toggle" data-toggle="dropdown">Sign Up Now <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="index.php#im_new">I'm New</a></li>
-                <li><a href="index.php#been_there_done_that">Been There, Done That</a></li>
+                <li><a href="index.php#new_volunteer">New Volunteer</a></li>
+                <li><a href="index.php#returning_volunteer">Returning Volunteer</a></li>
                 <li class="divider"></li>
                 <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
+                <li><a href="index.php#volunteer_responsibilities">Volunteer Roles & Responsibilities</a></li>
               </ul>
             </li>
+            <li><a href="index.php#contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
