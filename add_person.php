@@ -48,6 +48,7 @@
                  <option value="HIV Screener">HIV Screener</option>
             </select><br />
       Class: <select name="class">
+                 <option value="">-Select-</option>
                  <option value="Attending">Attending</option>
                  <option value="Fellow">Fellow</option>
                  <option value="Chief Resident">Chief Resident</option>
