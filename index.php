@@ -4,7 +4,7 @@
 <?php require_once("includes/menu.php"); ?>
 
 
-        <h1>EAB Scheduling</h1>
+        <h1>EAB Scheduling</h1><br />
         <p>Welcome to the new and revamped EAB Scheduling homepage!</p><br /><br />
         <p>Haven't volunteered with EAB (at EAB Clinic, M-Power, or a community screening) before? Sign up now!</p>
         <p><a href="new_volunteer.php" class="btn btn-primary btn-lg" role="button">New Volunteer &raquo;</a></p><br />
