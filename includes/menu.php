@@ -31,7 +31,7 @@
             <li class="dropdown">
               <a href="index.php#sign_up_now" class="dropdown-toggle" data-toggle="dropdown">Sign Up Now <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="index.php?new=volunteer">New Volunteer</a>
+                <li><a href="?action=newvolunteer">New Volunteer</a>
                 </li>
                 <li><a href="returning_volunteer.php">Returning Volunteer</a></li>
                 <li class="divider"></li>
@@ -50,9 +50,9 @@
 
 <?php 
 
-$new = $_GET['new'];
+$action = $_GET['action'];
 
-if($new == "volunteer")
+if($action == "newvolunteer")
 {
 	echo "
 		<div class=\"modal fade\" id=\"newvolunteer\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"newvolunteerModalLabel\" aria-hidden=\"true\">
@@ -62,7 +62,7 @@ if($new == "volunteer")
 		        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button>
 		        <h4 class=\"modal-title\" id=\"New Volunteer\">New Volunteer</h4>
 		      </div>
-		      <div class=\"modal-body\"
+		      <div class=\"modal-body\">
 			    Hi
 		      </div>
 		    </div>
