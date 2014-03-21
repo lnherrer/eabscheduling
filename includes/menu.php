@@ -26,7 +26,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li>
+            <li>About EAB
 			<div class="modal fade" id="abouteab" tabindex="-1" role="dialog" aria-labelledby="abouteab" aria-hidden="true">
 			  <div class="modal-dialog">
 			    <div class="modal-content">
