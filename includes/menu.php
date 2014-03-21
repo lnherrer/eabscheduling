@@ -52,6 +52,8 @@
 
 $action = $_GET['action'];
 
+if($action == "new_volunteer")
+{
 	echo "
 		<div class=\"modal fade\" id=\"newvolunteer\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"newvolunteerModalLabel\" aria-hidden=\"true\">
 		  <div class=\"modal-dialog\">
@@ -67,31 +69,11 @@ $action = $_GET['action'];
 l		    </div>
 		</div>
 	";
-}	
-if ($action == "returning_volunteer)
-{
-	echo "
-		<div class=\"modal fade\" id=\"returningvolunteer\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"returningvolunteerModalLabel\" aria-hidden=\"true\">
-		  <div class=\"modal-dialog\">
-		    <div class=\"modal-content\">
-		      <div class=\"modal-header\">
-		        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button>
-		        <h4 class=\"modal-title\" id=\"returningvolunteer\">New Volunteer</h4>
-		      </div>
-		      <div class=\"modal-body\">
-			    Hi
-		      </div>
-		  </div>
-l		    </div>
-		</div>
-	";	
-
-	
 	
 	echo "
 <script>
 $(document).ready(function() {
-    $('#returningvolunteer').modal('show')
+    $('#newvolunteer').modal('show')
 });
 </script>
 
