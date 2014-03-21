@@ -31,7 +31,7 @@
               <a href="index.php#sign_up_now" class="dropdown-toggle" data-toggle="dropdown">Sign Up Now <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="index.php#new_volunteer">New Volunteer</a></li>
-                <li><a href="index.php#returning_volunteer">Returning Volunteer</a></li>
+                <li><a href="add_person.php">Returning Volunteer</a></li>
                 <li class="divider"></li>
                 <li class="dropdown-header">More Info</li>
                 <li><a href="index.php#volunteer_roles_&_responsibilities">Volunteer Roles & Responsibilities</a></li>
