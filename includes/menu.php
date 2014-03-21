@@ -26,12 +26,12 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="index.php?about=eab">About EAB</a><br />
+            <li><a href="index.php?about=eab">About EAB</a>
 			</li>            
             <li class="dropdown">
               <a href="index.php#sign_up_now" class="dropdown-toggle" data-toggle="dropdown">Sign Up Now <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="index.php?new=volunteer">New Volunteer</a><br />
+                <li><a href="index.php?new=volunteer">New Volunteer</a>
                 </li>
                 <li><a href="returning_volunteer.php">Returning Volunteer</a></li>
                 <li class="divider"></li>
