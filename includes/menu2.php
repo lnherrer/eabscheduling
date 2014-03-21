@@ -30,7 +30,7 @@
             <li class="dropdown">
               <a href="index.php#sign_up_now" class="dropdown-toggle" data-toggle="dropdown">Sign Up Now <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="index.php#new_volunteer">New Volunteer</a></li>
+                <li><a href="new_volunteer.php">New Volunteer</a></li>
                 <li><a href="returning_volunteer.php">Returning Volunteer</a></li>
                 <li class="divider"></li>
                 <li class="dropdown-header">More Info</li>
