@@ -26,37 +26,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href=\"view_roster.php?action=abouteab&pid=" . $row['pid'] . "\">About EAB</a><br />
-if($action == "abouteab" && $pid != "")
-{
-		<div class=\"modal fade\" id=\"abouteab\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"abouteabModalLabel\" aria-hidden=\"true\">
-		  <div class=\"modal-dialog\">
-		    <div class=\"modal-content\">
-		      <div class=\"modal-header\">
-		        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button>
-		        <h4 class=\"modal-title\" id=\"About EAB\">About EAB</h4>
-		      </div>
-		      <div class=\"modal-body\">
-		        About EAB
-		      </div>
-		      <div class=\"modal-footer\">
-		        <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">No</button>
-		      </div>
-		    </div>
-		  </div>
-		</div>
-	";
-
-	echo "
-<script>
-$(document).ready(function() {
-    $('#deleteModal').modal('show')
-});
-</script>
-
-
-	";
-			</script>	
+            <li><a href="index.php?action=abouteab">About EAB</a><br />
 			</li>            
             <li class="dropdown">
               <a href="index.php#sign_up_now" class="dropdown-toggle" data-toggle="dropdown">Sign Up Now <b class="caret"></b></a>
@@ -81,3 +51,40 @@ $(document).ready(function() {
 
       <div class="starter-template">
         <!-- This is where page content goes -->
+
+
+<?php 
+
+$action = $_GET["action"];
+if($action == "abouteab")
+{
+		<div class=\"modal fade\" id=\"abouteab\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"abouteabModalLabel\" aria-hidden=\"true\">
+		  <div class=\"modal-dialog\">
+		    <div class=\"modal-content\">
+		      <div class=\"modal-header\">
+		        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button>
+		        <h4 class=\"modal-title\" id=\"About EAB\">About EAB</h4>
+		      </div>
+		      <div class=\"modal-body\">
+		        About EAB
+		      </div>
+		      <div class=\"modal-footer\">
+		        <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">No</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	";
+}
+	echo "
+<script>
+$(document).ready(function() {
+    $('#deleteModal').modal('show')
+});
+</script>
+
+	     ";   
+	     
+?>	     
+        
+        
