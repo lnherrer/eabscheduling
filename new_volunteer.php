@@ -14,6 +14,7 @@
       Middle Name: <input trim="text" name= "mname"><br/>
       Last Name: <input type="text" name= "lname"><br/>
       Suffix: <select name="position">
+                <option value="">-Select-</option>
                 <option value="II">II</option>
                 <option value="III">III</option>
                 <option value="IV">IV</option>
