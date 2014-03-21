@@ -35,6 +35,8 @@
                 <li class="divider"></li>
                 <li class="dropdown-header">More Info</li>
                 <li><a href="index.php#volunteer_roles_&_responsibilities">Volunteer Roles & Responsibilities</a></li>
+                <li><a href="index.php#officer">For Officers</a></li>
+                <li><a href="index.php#physician">For Physicians</a></li>>
               </ul>
             </li>
             <li><a href="index.php#contact">Contact</a></li>
