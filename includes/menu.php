@@ -52,8 +52,6 @@
 
 $action = $_GET['action'];
 
-if($action == "new_volunteer")
-{
 	echo "
 		<div class=\"modal fade\" id=\"newvolunteer\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"newvolunteerModalLabel\" aria-hidden=\"true\">
 		  <div class=\"modal-dialog\">
@@ -70,7 +68,7 @@ l		    </div>
 		</div>
 	";
 }	
-else if ($action == "returning_volunteer)
+if ($action == "returning_volunteer)
 {
 	echo "
 		<div class=\"modal fade\" id=\"returningvolunteer\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"returningvolunteerModalLabel\" aria-hidden=\"true\">
@@ -87,7 +85,7 @@ else if ($action == "returning_volunteer)
 l		    </div>
 		</div>
 	";	
-}
+
 	
 	
 	echo "
