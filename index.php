@@ -2,7 +2,6 @@
 
     <title>EAB Scheduling</title>
 
-<?php require_once("bootstrap/css/center-align.css"); ?>
 <?php require_once("includes/menu.php"); ?>
 
         <h1>EAB Scheduling</h1>
