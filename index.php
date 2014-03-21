@@ -5,7 +5,7 @@
 <?php require_once("includes/menu.php"); ?>
 
         <h1>EAB Scheduling</h1>
-        <p>More test commits</p>
+        <p>Last test commit!</p>
         <p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
 
 <?php require_once("includes/footer.php"); ?>
