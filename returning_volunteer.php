@@ -10,23 +10,22 @@
 
     <form action = "add_person_success.php" method = "get">
       <input type = "text" name = "upload" style = "display:none" value = "upload">
-      Program: <select name="program">
+      Program: <select name="programname">
                    <option value="">-Select-</option>
                    <option value="M-Power Clinic">M-Power Clinic</option>
                    <option value="EAB Clinic">EAB Clinic</option>
                    <option value="EAB Screening">EAB Screening</option>
                </select><br />
       Name: <br />
-      Position: <select name="position">
+      Position: <select name="positionname">
                  <option value="">-Select-</option>
                  <option value="Physician">Physician</option>
                  <option value="Officer">Officer</option>
                  <option value="Volunteer">Volunteer</option>
                  <option value="Shadowing">Shadowing</option>
-               </select><br />
-      Role: <select name="role">
+      Role:    <select name="rolename">
                  <option value="">-Select-</option>
-                 <option value="Physician">Physician</option>
+                 <option value="Physician">Physician</option>    
                  <option value="Front & Back Officer">Front & Back Officer</option>
                  <option value="Check In/Check Out">Check In/Check Out</option>
                  <option value="Clinic Leader">Clinic Leader</option>
@@ -40,8 +39,8 @@
                  <option value="Vitals">Vitals</option>
                  <option value="Education Assistant">Education Assistant</option>
                  <option value="HIV Screener">HIV Screener</option>
-            </select><br />
-      Class: <select name="class">
+               </select><br />
+      Class: <select name="classname">
                  <option value="">-Select-</option>
                  <option value="Attending">Attending</option>
                  <option value="Fellow">Fellow</option>

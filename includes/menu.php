@@ -31,9 +31,9 @@
             <li class="dropdown">
               <a href="index.php#sign_up_now" class="dropdown-toggle" data-toggle="dropdown">Sign Up Now <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="?action=newvolunteer">New Volunteer</a>
+                <li><a href="?action=new_volunteer">New Volunteer</a>
                 </li>
-                <li><a href="returning_volunteer.php">Returning Volunteer</a></li>
+                <li><a href="?action=returning_volunteer.php">Returning Volunteer</a></li>
                 <li class="divider"></li>
                 <li class="dropdown-header">More Info</li>
                 <li><a href="index.php#volunteer_roles_&_responsibilities">Volunteer Roles & Responsibilities</a></li>
@@ -52,7 +52,7 @@
 
 $action = $_GET['action'];
 
-if($action == "newvolunteer")
+if($action == "new_volunteer")
 {
 	echo "
 		<div class=\"modal fade\" id=\"newvolunteer\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"newvolunteerModalLabel\" aria-hidden=\"true\">
@@ -65,11 +65,31 @@ if($action == "newvolunteer")
 		      <div class=\"modal-body\">
 			    Hi
 		      </div>
-		    </div>
 		  </div>
+l		    </div>
 		</div>
 	";
-
+}	
+else if ($action == "returning_volunteer)
+{
+	echo "
+		<div class=\"modal fade\" id=\"returningvolunteer\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"returningvolunteerModalLabel\" aria-hidden=\"true\">
+		  <div class=\"modal-dialog\">
+		    <div class=\"modal-content\">
+		      <div class=\"modal-header\">
+		        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button>
+		        <h4 class=\"modal-title\" id=\"returningvolunteer\">New Volunteer</h4>
+		      </div>
+		      <div class=\"modal-body\">
+			    Hi
+		      </div>
+		  </div>
+l		    </div>
+		</div>
+	";	
+}
+	
+	
 	echo "
 <script>
 $(document).ready(function() {
