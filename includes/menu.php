@@ -58,6 +58,7 @@
 $action = $_GET["action"];
 if($action == "abouteab")
 {
+	echo "
 		<div class=\"modal fade\" id=\"abouteab\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"abouteabModalLabel\" aria-hidden=\"true\">
 		  <div class=\"modal-dialog\">
 		    <div class=\"modal-content\">
@@ -79,7 +80,7 @@ if($action == "abouteab")
 	echo "
 <script>
 $(document).ready(function() {
-    $('#deleteModal').modal('show')
+    $('#abouteab').modal('show')
 });
 </script>
 
