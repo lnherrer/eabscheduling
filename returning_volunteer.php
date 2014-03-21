@@ -2,7 +2,7 @@
 
 	<title>Add Person</title>
 
-<?php require_once("includes/menu.php"); ?>
+<?php require_once("includes/menu2.php"); ?>
 
         <h1>Add Person</h1>
 
