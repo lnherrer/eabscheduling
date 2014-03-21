@@ -17,6 +17,7 @@
       Race: <input types = "text" name = "race"> <br />
       Programming Language: <input type = "text" name = "proglang"> <br />
       Program: <select name="program">
+           <option value="">-Select-</option>
            <option value="M-Power Clinic">M-Power Clinic</option>
            <option value="EAB Clinic">EAB Clinic</option>
            <option value="EAB Screening">EAB Screening</option>
