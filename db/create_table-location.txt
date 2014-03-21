@@ -1,0 +1,9 @@
+//Location Table
+
+MariaDB [eabscheddb]> 
+
+CREATE TABLE `locationtable` (
+locationid BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+locationname VARCHAR(25),
+address VARCHAR(50)
+);

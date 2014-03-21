@@ -1,0 +1,9 @@
+//Program Table
+
+MariaDB [eabscheddb]> 
+
+CREATE TABLE `programtable` (
+programid BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+program VARCHAR(25),
+descriptionfield TEXT
+);

@@ -1,0 +1,14 @@
+//Person Table
+
+MariaDB [eabscheddb]> 
+
+CREATE TABLE `persontable` (
+personid BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+fname VARCHAR(25),
+mname VARCHAR(25),
+lname VARCHAR(25),
+suffname VARCHAR(25),
+blazerid VARCHAR(15),
+levelid BIGINT NOT NULL,
+FOREIGN KEY (levelid) REFERENCES `leveltable`(levelid)
+);

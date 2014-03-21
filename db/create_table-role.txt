@@ -1,0 +1,8 @@
+//Role Table
+
+MariaDB [eabscheddb]> 
+
+CREATE TABLE `roletable` (
+roleid BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+rolename VARCHAR(30)
+);

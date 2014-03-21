@@ -1,0 +1,8 @@
+//Position Table
+
+MariaDB [eabscheddb]> 
+
+CREATE TABLE `positiontable` (
+positionid BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+positionname VARCHAR(15)
+);

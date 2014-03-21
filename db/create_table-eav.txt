@@ -1,0 +1,11 @@
+//EAV Table
+
+MariaDB [eabscheddb]> 
+
+CREATE TABLE `eavtable` (
+eavid BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+positionid BIGINT NOT NULL,
+roleid BIGINT NOT NULL,
+FOREIGN KEY (positionid) REFERENCES `positiontable`(positionid),
+FOREIGN KEY (roleid) REFERENCES `roletable`(roleid)
+);

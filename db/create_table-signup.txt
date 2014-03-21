@@ -1,0 +1,15 @@
+//Sign Up Table
+
+MariaDB [eabscheddb]> 
+
+CREATE TABLE `signuptable` (
+signupid BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+personid BIGINT NOT NULL,
+eventid BIGINT NOT NULL,
+positionid BIGINT NOT NULL,
+roleid BIGINT NOT NULL,
+FOREIGN KEY (personid) REFERENCES `persontable`(personid),
+FOREIGN KEY (eventid) REFERENCES `eventtable`(eventid),
+FOREIGN KEY (positionid) REFERENCES `positiontable`(positionid),
+FOREIGN KEY (roleid) REFERENCES `roletable`(roleid)
+);

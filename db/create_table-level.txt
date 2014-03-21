@@ -1,0 +1,10 @@
+//Level Table
+
+MariaDB [eabscheddb]> 
+
+CREATE TABLE `leveltable` (
+levelid BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+schoolid BIGINT NOT NULL,
+FOREIGN KEY (schoolid) REFERENCES `schooltable`(schoolid),
+levelname VARCHAR(15)
+);

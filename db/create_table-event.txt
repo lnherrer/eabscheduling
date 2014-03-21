@@ -1,0 +1,13 @@
+//Events Table
+
+MariaDB [eabscheddb]> 
+
+CREATE TABLE `eventtable` (
+eventid BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+begintime DATETIME,
+endtime DATETIME,
+programid BIGINT NOT NULL,
+locationid BIGINT NOT NULL,
+FOREIGN KEY (programid) REFERENCES `programtable`(programid),
+FOREIGN KEY (locationid) REFERENCES `locationtable`(locationid)
+);
