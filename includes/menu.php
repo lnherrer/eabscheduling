@@ -91,7 +91,7 @@ l		    </div>
 	echo "
 <script>
 $(document).ready(function() {
-    $('#newvolunteer').modal('show')
+    $('#returningvolunteer').modal('show')
 });
 </script>
 
