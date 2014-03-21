@@ -26,7 +26,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="index.php?about=eab">About EAB</a>
+            <li><a href="index.php#abouteab">About EAB</a>
 			</li>            
             <li class="dropdown">
               <a href="index.php#sign_up_now" class="dropdown-toggle" data-toggle="dropdown">Sign Up Now <b class="caret"></b></a>
@@ -55,16 +55,20 @@ $new = $_GET['new'];
 if($new == "volunteer")
 {
 	echo "
-		<div class=\"modal fade\" id=\"newvolunteer\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"abouteabModalLabel\" aria-hidden=\"true\">
+		<div class=\"modal fade\" id=\"newvolunteer\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"newvolunteerModalLabel\" aria-hidden=\"true\">
 		  <div class=\"modal-dialog\">
 		    <div class=\"modal-content\">
 		      <div class=\"modal-header\">
 		        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button>
-		        <h4 class=\"modal-title\" id=\"New Volunteer\">About EAB</h4>
+		        <h4 class=\"modal-title\" id=\"New Volunteer\">New Volunteer</h4>
 		      </div>
-		      <div class=\"modal-body\">
-		        About EAB
+		      <div class=\"modal-body\"
+			    Hi
 		      </div>
+		      <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
 		    </div>
 		  </div>
 		</div>
