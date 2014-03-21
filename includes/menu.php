@@ -47,12 +47,6 @@
       </div>
     </div>
 
-    <div class="container">
-
-      <div class="starter-template">
-        <!-- This is where page content goes -->
-
-
 <?php 
 
 $action = $_GET["action"];
@@ -83,6 +77,14 @@ $(document).ready(function() {
 
 	     ";   
 	     
-?>	     
+?>	 
+
+    <div class="container">
+
+      <div class="starter-template">
+        <!-- This is where page content goes -->
+
+
+    
         
         
