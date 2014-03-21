@@ -50,26 +50,6 @@
 
 <?php 
 
-$about = $_GET['about'];
-
-if($about == "eab")
-{
-	echo "
-		<div class=\"modal fade\" id=\"abouteab\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"abouteabModalLabel\" aria-hidden=\"true\">
-		  <div class=\"modal-dialog\">
-		    <div class=\"modal-content\">
-		      <div class=\"modal-header\">
-		        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button>
-		        <h4 class=\"modal-title\" id=\"About EAB\">About EAB</h4>
-		      </div>
-		      <div class=\"modal-body\">
-		        About EAB
-		      </div>
-		    </div>
-		  </div>
-		</div>
-	";
-
 $new = $_GET['new'];
 
 if($new == "volunteer")
