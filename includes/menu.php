@@ -42,7 +42,7 @@
             </li>
             <li><a href="index.php#officer">For Officers</a></li>
             <li><a href="index.php#physician">For Physicians</a></li>
-            <li><a href="index.php#contact">Contact</a></li>
+            <li><a href="index.php#contact">Contact Us</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
