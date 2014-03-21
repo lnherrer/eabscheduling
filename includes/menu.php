@@ -60,14 +60,11 @@ if($new == "volunteer")
 		    <div class=\"modal-content\">
 		      <div class=\"modal-header\">
 		        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button>
-		        <h4 class=\"modal-title\" id=\"New Volunteer\">About EAB</h4>
+		        <h4 class=\"modal-title\" id=\"New Volunteer\">New Volunteer</h4>
 		      </div>
 		      <div class=\"modal-body\"
-		      
+      
 		      <h1>Add Person</h1>
-
-
-
     <form action = "add_person_success.php" method = "get">
       <input type = "text" name = "upload" style = "display:none" value = "upload">
       First Name: <input trim="text" name= "fname"><br/>
