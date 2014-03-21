@@ -27,25 +27,24 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href=\"view_roster.php?action=abouteab&pid=" . $row['pid'] . "\">About EAB</a><br />
-			if($action == "abouteab" && $pid != "")
+if($action == "abouteab" && $pid != "")
 {
-<div class=\"modal fade\" id=\"abouteab\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"abouteabModalLabel\" aria-hidden=\"true\">
-  <div class=\"modal-dialog\">
-    <div class=\"modal-content\">
-      <div class=\"modal-header\">
-        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button>
-        <h4 class=\"modal-title\" id=\"About EAB\">Delete record</h4>
-      </div>
-      <div class=\"modal-body\">
-        About EAB
-      </div>
-      <div class=\"modal-footer\">
-        <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">No</button>
-        <a type=\"button\" class=\"btn btn-primary\" href=\"view_roster.php?action=abouteab&pid=" . $pid . "\">Yes</a>
-      </div>
-    </div>
-  </div>
-</div>
+		<div class=\"modal fade\" id=\"abouteab\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"abouteabModalLabel\" aria-hidden=\"true\">
+		  <div class=\"modal-dialog\">
+		    <div class=\"modal-content\">
+		      <div class=\"modal-header\">
+		        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button>
+		        <h4 class=\"modal-title\" id=\"About EAB\">About EAB</h4>
+		      </div>
+		      <div class=\"modal-body\">
+		        About EAB
+		      </div>
+		      <div class=\"modal-footer\">
+		        <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">No</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
 	";
 
 	echo "
