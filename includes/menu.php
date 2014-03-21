@@ -67,7 +67,7 @@ if($action == "abouteab")
 		  </div>
 		</div>
 	";
-}
+
 	echo "
 <script>
 $(document).ready(function() {
@@ -76,7 +76,7 @@ $(document).ready(function() {
 </script>
 
 	     ";   
-	     
+}	     
 ?>	 
 
     <div class="container">
