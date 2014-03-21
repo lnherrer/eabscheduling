@@ -2,7 +2,7 @@
 
     <title>EAB Scheduling</title>
 
-<?php require_once("includes/menu.php"); ?>
+<?php require_once("includes/menu2.php"); ?>
 
         <h1>EAB Scheduling</h1>
         <p>Last test commit!</p>
