@@ -1,3 +1,4 @@
+/*
 <?php require_once("includes/header.php"); ?>
 
     <title>EAB Scheduling</title>
@@ -47,3 +48,4 @@ if($upload=="upload")
 ?>
 
 <?php require_once("includes/footer.php"); ?>
+*/

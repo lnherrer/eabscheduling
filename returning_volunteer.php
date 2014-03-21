@@ -7,7 +7,7 @@
       <h1>Sign Up Now</h1>
 
 <html>
-
+  <body>
     <form action = "add_person_success.php" method = "get">
       <input type = "text" name = "upload" style = "display:none" value = "upload">
       Program: <select name="program">
