@@ -69,9 +69,6 @@ if($action == "abouteab")
 		      <div class=\"modal-body\">
 		        About EAB
 		      </div>
-		      <div class=\"modal-footer\">
-		        <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">No</button>
-		      </div>
 		    </div>
 		  </div>
 		</div>
