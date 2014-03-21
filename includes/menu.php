@@ -26,12 +26,13 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="index.php?action=abouteab">About EAB</a><br />
+            <li><a href="index.php?about=eab">About EAB</a><br />
 			</li>            
             <li class="dropdown">
               <a href="index.php#sign_up_now" class="dropdown-toggle" data-toggle="dropdown">Sign Up Now <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="new_volunteer.php">New Volunteer</a></li>
+                <li><a href="index.php?new=volunteer">New Volunteer</a><br />
+                </li>
                 <li><a href="returning_volunteer.php">Returning Volunteer</a></li>
                 <li class="divider"></li>
                 <li class="dropdown-header">More Info</li>
@@ -49,8 +50,9 @@
 
 <?php 
 
-$action = $_GET['action'];
-if($action == "abouteab")
+$about = $_GET['about'];
+
+if($about == "eab")
 {
 	echo "
 		<div class=\"modal fade\" id=\"abouteab\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"abouteabModalLabel\" aria-hidden=\"true\">
@@ -68,10 +70,30 @@ if($action == "abouteab")
 		</div>
 	";
 
+$new = $_GET['new'];
+
+if($new == "volunteer")
+{
+	echo "
+		<div class=\"modal fade\" id=\"newvolunteer\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"abouteabModalLabel\" aria-hidden=\"true\">
+		  <div class=\"modal-dialog\">
+		    <div class=\"modal-content\">
+		      <div class=\"modal-header\">
+		        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;</button>
+		        <h4 class=\"modal-title\" id=\"New Volunteer\">About EAB</h4>
+		      </div>
+		      <div class=\"modal-body\">
+		        About EAB
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	";
+
 	echo "
 <script>
 $(document).ready(function() {
-    $('#abouteab').modal('show')
+    $('#newvolunteer').modal('show')
 });
 </script>
 
